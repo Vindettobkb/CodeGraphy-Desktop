@@ -49,3 +49,12 @@
 - **OS:** Windows 10 / 11 (64-bit)
 - **RAM:** Minimum 4 GB RAM
 - **Disk Space:** ~250 MB
+
+---
+
+## 💬 Feedback & Contact / Контакты для связи
+
+Got ideas, feature requests, or bug reports? Feel free to reach out directly:
+- **Discord:** `nevindetto` (DM / add as friend)
+- **Telegram:** `@Methyienedloxymethamphetamine`
+- **GitHub Issues:** [Open an Issue](https://github.com/Vindettobkb/CodeGraphy-Desktop/issues)
