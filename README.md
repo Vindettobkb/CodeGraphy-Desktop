@@ -55,8 +55,8 @@
 ### 🛡️ Проверка безопасности (VirusTotal)
 Перед запуском вы можете проверить файлы на вирусы (сборка выполнена через PyInstaller без платного EV-сертификата подписи кода, поэтому возможны 1–2 ложных срабатывания эвристики):
 
-* **Установщик (`CodeGraphy_Setup.exe`):** [SHA-256: 9b5c5cca9f33...](https://www.virustotal.com/gui/file/9b5c5cca9f33718789baac5eacfa7633d44ae7f3d33926e7112b49381a64777a) — **0/68 детектов** (Чисто)
-* **Основной бинарник (`CodeGraphy.exe`):** [SHA-256: 1061eefb7dd6...](https://www.virustotal.com/gui/file/1061eefb7dd635c3d55c2c890f497853b0217a39a3f95f9fb2c827a78a38123c) — **[укажи цифру, например, 1/68 (только Falcon/MaxSecure)]**
+* **Установщик (`CodeGraphy_Setup.exe`):** [SHA-256: 9b5c5cca9f33...](https://www.virustotal.com/gui/file/9b5c5cca9f33718789baac5eacfa7633d44ae7f3d33926e7112b49381a64777a)
+* **Основной бинарник (`CodeGraphy.exe`):** [SHA-256: 1061eefb7dd6...](https://www.virustotal.com/gui/file/1061eefb7dd635c3d55c2c890f497853b0217a39a3f95f9fb2c827a78a38123c)
 
 ## 💬 Feedback & Contact / Контакты для связи
 
