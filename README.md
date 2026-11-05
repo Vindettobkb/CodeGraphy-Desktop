@@ -2,18 +2,17 @@
 
 > **Visual Context Orchestrator & Living Architecture Graph for AI-First Developers**
 
-<p align="left">
-  <a href="#-english">English</a> •
-  <a href="#-русский">Русский</a>
-</p>
+[English](#english) • [Русский](#русский)
 
-[https://img.shields.io/badge/Platform-Windows%2010%2F11%20x64-blue?style=for-the-badge&logo=windows]
-[https://img.shields.io/badge/Architecture-100%25%20Local--First-emerald?style=for-the-badge]
-[https://img.shields.io/badge/Release-v1.0.0%20Beta-purple?style=for-the-badge]
+<p>
+  <img src="https://img.shields.io/badge/Platform-Windows%2010%2F11%20x64-blue?style=for-the-badge&logo=windows" alt="Platform" />
+  <img src="https://img.shields.io/badge/Architecture-100%25%20Local--First-emerald?style=for-the-badge" alt="Architecture" />
+  <img src="https://img.shields.io/badge/Release-v1.0.0%20Beta-purple?style=for-the-badge" alt="Release" />
+</p>
 
 ---
 
-## 🇺🇸 English
+## English
 
 **CodeGraphy** is a high-performance local developer tool built to eliminate AI context bloat and model hallucinations. Instead of copying and pasting thousands of raw lines of code into ChatGPT, Claude, or Cursor, CodeGraphy lets you visually map your software architecture on an Obsidian-style living graph, link nodes directly to local source files, and extract surgical context prompts via Python AST pruning.
 
@@ -29,7 +28,7 @@
 
 ---
 
-## 🇷🇺 Русский
+## Русский
 
 **CodeGraphy** — это локальный инструмент для разработчиков, решающий проблему переполнения контекста (Context Bloat) и галлюцинаций нейросетей. Вместо ручного копирования сотен строк кода в ChatGPT или Claude, CodeGraphy позволяет визуализировать архитектуру проекта в виде живого графа в стиле Obsidian, связывать модули с реальными файлами и извлекать компактные, точные промпты через парсинг синтаксического дерева (AST).
 
