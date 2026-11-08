@@ -5,7 +5,6 @@
   <img src="https://img.shields.io/badge/Platform-Windows%2010%2F11%20x64-blue?style=for-the-badge&logo=windows" alt="Platform" />
   <img src="https://img.shields.io/badge/Architecture-100%25%20Local--First-emerald?style=for-the-badge" alt="Architecture" />
   <img src="https://img.shields.io/badge/Release-v2.0.0-purple?style=for-the-badge" alt="Release" />
-  <img src="https://img.shields.io/badge/Security-Nuitka%20Machine%20C%20%2B%20RC4%20Obfuscated-red?style=for-the-badge" alt="Security" />
 </p>
 
 ---
