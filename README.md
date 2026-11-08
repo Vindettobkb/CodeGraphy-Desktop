@@ -40,8 +40,8 @@ Modern AI-assisted development suffers from three major bottlenecks:
 
 ### 🚀 Download Latest Release (v2.0.0)
 
-- 👉 **[Download CodeGraphy-v2.0.0-Setup.exe (138 MB)](https://github.com/)**
-- **SHA-256 Checksum:** `1329C8E67ED6FE894E17127C819CECBF67CB3B460A0D7515952DFEDBE2AF2C5C`
+- 👉 **[Download CodeGraphy Setup 2.0.0.exe (138 MB)](https://github.com/)**
+- **SHA-256 Checksum:** `B6F80896946748AEA1B366B6A9BD9684715F646A6643CDF302111B13AFB77B00`
 - **Portable Version:** Available in `win-unpacked` folder (zero installation required).
 
 ---
@@ -113,8 +113,8 @@ Generate a complete, valid, import-ready .cg.md document. Do not omit important 
 
 ### 🚀 Скачать релиз (v2.0.0)
 
-- 👉 **[Скачать инсталлятор CodeGraphy-v2.0.0-Setup.exe (138 МБ)](https://github.com/)**
-- **Контрольная сумма SHA-256:** `1329C8E67ED6FE894E17127C819CECBF67CB3B460A0D7515952DFEDBE2AF2C5C`
+- 👉 **[Скачать инсталлятор CodeGraphy Setup 2.0.0.exe (138 МБ)](https://github.com/)**
+- **Контрольная сумма SHA-256:** `B6F80896946748AEA1B366B6A9BD9684715F646A6643CDF302111B13AFB77B00`
 - **Портативная версия:** Папка `win-unpacked` (работает сразу без установки).
 
 ---
@@ -220,7 +220,7 @@ name: Smart Home IoT Platform
 
 | Файл / File | Версия / Version | SHA-256 Checksum |
 | :--- | :--- | :--- |
-| **`CodeGraphy-v2.0.0-Setup.exe`** | `v2.0.0` | `1329C8E67ED6FE894E17127C819CECBF67CB3B460A0D7515952DFEDBE2AF2C5C` |
+| **`CodeGraphy Setup 2.0.0.exe`** | `v2.0.0` | `B6F80896946748AEA1B366B6A9BD9684715F646A6643CDF302111B13AFB77B00` |
 
 ---
 
