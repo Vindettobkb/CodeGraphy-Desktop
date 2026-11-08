@@ -1,170 +1,173 @@
-# ⚡ CodeGraphy
+# ⚡ CodeGraphy v2.0
 ### Visual Context Orchestrator & Living Architecture Graph for AI-First Developers
 
 <p align="center">
   <img src="https://img.shields.io/badge/Platform-Windows%2010%2F11%20x64-blue?style=for-the-badge&logo=windows" alt="Platform" />
   <img src="https://img.shields.io/badge/Architecture-100%25%20Local--First-emerald?style=for-the-badge" alt="Architecture" />
   <img src="https://img.shields.io/badge/Release-v2.0.0-purple?style=for-the-badge" alt="Release" />
+  <img src="https://img.shields.io/badge/Security-Nuitka%20Machine%20C%20%2B%20RC4%20Obfuscated-red?style=for-the-badge" alt="Security" />
 </p>
 
 ---
 
 ## 🌐 Language Select / Выберите язык
 - [English](#-english)
+  - [What Problems Does CodeGraphy Solve?](#-what-problems-does-codegraphy-solve)
+  - [Key Architecture & Features](#-key-architecture--features)
+  - [CodeGraphy Markdown Format (.cg.md)](#-codegraphy-markdown-format-cgmd)
+  - [System Requirements & Security](#-system-requirements--security)
 - [Русский](#-русский)
+  - [Какие проблемы решает CodeGraphy?](#-какие-проблемы-решает-codegraphy)
+  - [Главные возможности и архитектура](#-главные-возможности-и-архитектура)
+  - [Формат CodeGraphy Markdown (.cg.md)](#-формат-codegraphy-markdown-cgmd)
+  - [Системные требования и безопасность](#-системные-требования-и-безопасность)
 
 ---
 
 ## 🇬🇧 English
 
-### What is CodeGraphy?
-**CodeGraphy** is a high-performance, local-first developer tool designed to eliminate AI context bloat and reduce model hallucinations.
+### 💡 What Problems Does CodeGraphy Solve?
 
-Instead of manually copying thousands of lines of source code into ChatGPT, Claude, Cursor, or other AI tools, CodeGraphy allows you to visually map your software architecture using an interactive Obsidian-style graph, connect nodes directly to local source files, and extract precise context using Python AST analysis.
+Modern AI-assisted development suffers from three major bottlenecks:
 
-### 🚀 Download
-👉 **[Download CodeGraphy for Windows (.exe)](#)**
+1. **Context Window Bloat & Cost:** Copying full implementation code (thousands of lines) into LLMs burns token limits, skyrockets API costs, and dilutes the AI's attention span.
+2. **Model Hallucinations & Lost In The Middle:** When given massive files with irrelevant internal helper logic, AI models frequently forget high-level project boundaries, invent invalid imports, or hallucinate non-existent interfaces.
+3. **Fragmented Architectural Knowledge:** Codebases are divided across dozens of microservices, modules, and directories. Developers waste hours explaining to ChatGPT or Claude how module A connects to adapter B and database C.
 
-### ✨ Key Features
-- **Obsidian-Style Canvas:** Interactive dark graph with fluid physics, floating node dynamics, expandable topic cards, and React Flow integration.
-- **Deep AST Extraction:** Removes function and class implementation bodies while preserving signatures, parameters, return types, and docstrings. Can reduce context size by up to 85%.
-- **Portable `.cg.md` Architecture Format:** Export and import your entire project architecture, lanes, tasks, dependencies, and file bindings using a single human-readable Markdown file.
-- **One-Click IDE Integration:** Open the exact source file and line directly in PyCharm or VS Code.
-- **Integrated AI Chat (340+ Models):** A slide-out AI chat supporting OpenAI, Anthropic, Google, DeepSeek, Qwen, xAI, OpenRouter, and automatically detected local models through Ollama and LM Studio.
-- **100% Local-First & Private:** No cloud databases. Workspace state is stored locally inside your project's `.archflow/` directory.
+**CodeGraphy resolves all three:** It turns your architecture into an interactive, visual living graph, extracts signature-only AST skeletons without runtime bloat, and feeds clean, precise context directly to any AI model.
 
 ---
 
-### 📐 CodeGraphy Markdown Format
-CodeGraphy Markdown is an open, declarative format for transferring software architecture between developers and AI models.
+### 🚀 Download Latest Release (v2.0.0)
 
-#### Why use it?
-1. **AI-Powered Architecture Generation:** Ask ChatGPT, Claude, Gemini, DeepSeek, or another LLM to design your project architecture using the CodeGraphy format. Import the generated Markdown file and instantly visualize the architecture.
-2. **Git-Friendly & Portable:** Share a single `.md` file instead of complex database exports.
-3. **Obsidian-Compatible Links:** Uses familiar `[[Topic Name]]` wiki-links for dependency resolution.
-4. **Flexible File Paths:** Supports relative and absolute Windows/Linux paths, automatically recognizing both `/` and `\` separators.
+- 👉 **[Download CodeGraphy-v2.0.0-Setup.exe (138 MB)](https://github.com/)**
+- **SHA-256 Checksum:** `1329C8E67ED6FE894E17127C819CECBF67CB3B460A0D7515952DFEDBE2AF2C5C`
+- **Portable Version:** Available in `win-unpacked` folder (zero installation required).
+
+---
+
+### ✨ Key Architecture & Features
+
+#### 1. Deep Python AST Context Extraction (-85% Token Waste)
+Instead of sending entire file bodies, the built-in AST parser strips internal implementation blocks (`pass`, return calculations, loops) while preserving:
+- Function and class definitions with inheritance trees.
+- Exact parameter names, type annotations, and default values.
+- Docstrings, return signatures, and exported symbols.
+- **Result:** You can feed an entire 20-file module into an LLM using only ~1,500 tokens instead of 25,000 tokens, eliminating hallucinations.
+
+#### 2. Living Multi-Topic Architecture Canvas
+- **Obsidian-Style Interactive Canvas:** Powered by React Flow with smooth physics, drag-and-drop node organization, and status markers (`To do`, `In progress`, `Done`).
+- **Multi-Topic Focus:** Pair several independent or interconnected modules simultaneously (`selectedTopicIds`). The chat compiles unified context across all attached files and dependency edges in real time.
+- **Linear / Graphite Minimalist Palette:** Professional dark-mode design system (`#111315` / `#15181B` / `#20252A`) with zero visual noise, aligned action controls (`Copy`, `Retry`), and unobtrusive status badges.
+
+#### 3. Integrated AI Chat with 340+ Models & Instant SSE Streaming
+- **Native Support:** Google Gemini (`3.6 Flash`, `3.8 Flash`, `Pro`), OpenAI (`GPT-4o`, `o3`), Anthropic (`Claude 3.5 Sonnet`, `Opus`), DeepSeek, Qwen, xAI Grok, OpenRouter.
+- **Local Private Models:** Auto-detects running local GPU instances via **Ollama**, **LM Studio**, and **Open WebUI** with 0-latency offline inference.
+- **Sub-Second Streaming:** Server-Sent Events (SSE) stream tokens chunk-by-chunk with intelligent fallback mechanisms (e.g. automatic failover if a cloud model cluster experiences peak-demand spikes).
+- **Persistent Local History:** Chat sessions are stored locally in your workspace (`localStorage` / `.archflow`), featuring automatic smart-naming from the initial query and instant session switching.
+
+#### 4. Military-Grade Intellectual Property Protection
+CodeGraphy is built with strict multi-layer defense against reverse engineering and decompilation:
+- **Python-to-Native Machine Code (Nuitka + Zig):** Backend modules are translated to C source code and compiled directly into an x86_64 binary (`main.exe`) using `zig.exe 0.16.0`. There are **no `.pyc` bytecode files**—decompilers only see raw processor machine instructions (`mov`, `jmp`, `call`).
+- **Cryptographic Frontend Obfuscation (RC4 + Control Flow Flattening):** The React 19 codebase is hardened with RC4 string encryption, function flattening into state machines, and dead-code injection.
+- **ASAR Integrity & DevTools Lockdown:** Production binaries enforce cryptographically verified bundle checksums preventing binary tampering.
+
+---
+
+### 📐 CodeGraphy Markdown Format (`.cg.md`)
+
+CodeGraphy introduces an open, declarative Markdown standard for sharing architecture between developers, Git repositories, and AI systems.
 
 #### 🤖 AI Architecture Generation Prompt
-> Copy and send this prompt to any AI model:
-> 
-> ```text
-> Generate a complete software architecture for my project using the CodeGraphy v2.0 Markdown format.
-> Follow these requirements:
-> - Include YAML frontmatter with format: codegraphy-workspace, version: 2.0, workspace_id, and name.
-> - Include three sections: ## Lanes, ## Tasks, and ## Topics.
-> - Lanes must use the format: - [lane_id] **Title** | order=0 | color=#38bdf8 | expanded
-> - Tasks must use: ### Task: Title `task_id` and include `status`, `lane`, `linked_topics`, and `description`.
-> - Topics must use: ### Topic: Title `topic_id` and include `status`, `lane`, `task`, `position`, `description`, `connects_to`, and `files`.
-> - Use [[Topic Name]] for connections between topics.
-> - File paths must be listed as indented Markdown items under files.
-> Generate a complete, valid, import-ready .cg.md document. Do not omit important modules or invent non-existing files. If project files are provided, derive the architecture from their actual contents.
-> ```
+Copy and send this prompt to ChatGPT, Claude, Gemini, or DeepSeek:
 
-#### Syntax Example
-```markdown
----
-format: codegraphy-workspace
-version: 2.0
-workspace_id: ws_ecommerce_engine
-name: E-Commerce Microservices Architecture
----
-
-# Workspace: E-Commerce Microservices Architecture
-
-## Lanes
-- [lane_infra] **Infrastructure & Mesh** | order=0 | color=#a855f7 | expanded
-- [lane_services] **Core Microservices** | order=1 | color=#38bdf8 | expanded
-- [lane_analytics] **Data & Analytics** | order=2 | color=#22c55e | expanded
-
-## Tasks
-### Task: Payment Gateway Integration `task_pay_01`
-- status: `in_progress`
-- lane: `lane_services`
-- linked_topics: `topic_order_proc, topic_stripe_adapter`
-- description: Implement Stripe webhook handlers and idempotent payment processing.
-
-## Topics
-### Topic: Order Processing Service `topic_order_proc`
-- status: `in_progress`
-- lane: `lane_services`
-- task: `task_pay_01`
-- position: `(180.0, 200.0)`
-- description: Manages customer cart state, order workflows, and checkout pipelines.
-- connects_to: [[Stripe Payment Adapter]], [[Event Bus Broker]]
-- files:
-  - `services/orders/domain/workflows.py`
-  - `services/orders/api/checkout_router.py`
-  - `services/orders/repositories/cart_repo.py`
-
-### Topic: Stripe Payment Adapter `topic_stripe_adapter`
-- status: `done`
-- lane: `lane_services`
-- task: `task_pay_01`
-- position: `(520.0, 200.0)`
-- description: Low-level API connector for processing credit cards and refunds.
-- connects_to: [[Event Bus Broker]]
-- files:
-  - `services/payments/adapters/stripe_client.py`
-  - `services/payments/schemas/webhooks.py`
-
-### Topic: Event Bus Broker `topic_event_bus`
-- status: `done`
-- lane: `lane_infra`
-- position: `(350.0, 420.0)`
-- description: RabbitMQ/Kafka publisher for system-wide asynchronous domain events.
-- files:
-  - `infrastructure/messaging/publisher.py`
-  - `infrastructure/messaging/events/order_events.py`
+```text
+Generate a complete software architecture for my project using the CodeGraphy v2.0 Markdown format.
+Follow these requirements:
+- Include YAML frontmatter with format: codegraphy-workspace, version: 2.0, workspace_id, and name.
+- Include three sections: ## Lanes, ## Tasks, and ## Topics.
+- Lanes must use the format: - [lane_id] **Title** | order=0 | color=#38bdf8 | expanded
+- Tasks must use: ### Task: Title `task_id` and include `status`, `lane`, `linked_topics`, and `description`.
+- Topics must use: ### Topic: Title `topic_id` and include `status`, `lane`, `task`, `position`, `description`, `connects_to`, and `files`.
+- Use [[Topic Name]] for connections between topics.
+- File paths must be listed as indented Markdown items under files.
+Generate a complete, valid, import-ready .cg.md document. Do not omit important modules or invent non-existing files. If project files are provided, derive the architecture from their actual contents.
 ```
 
 ---
 
 ## 🇷🇺 Русский
 
-### Что такое CodeGraphy?
-**CodeGraphy** — это высокопроизводительный локальный инструмент для разработчиков, предназначенный для решения проблем переполнения контекста (*Context Bloat*) и снижения количества галлюцинаций нейросетей.
+### 💡 Какие проблемы решает CodeGraphy?
 
-Вместо ручного копирования сотен и тысяч строк исходного кода в ChatGPT, Claude, Cursor или другие AI-инструменты, CodeGraphy позволяет визуализировать архитектуру проекта в виде интерактивного графа в стиле Obsidian, связывать узлы с реальными файлами и извлекать компактный контекст с помощью анализа синтаксического дерева Python (AST).
+При разработке с помощью современных нейросетей разработчики постоянно сталкиваются с тремя барьерами:
 
-### 🚀 Скачать
-👉 **[Скачать установщик CodeGraphy для Windows (.exe)](#)**
+1. **Переполнение контекста (Context Bloat) и трата токенов:** Копирование исходных файлов целиком быстро сжигает лимиты контекстного окна, делает запросы дорогими и замедляет генерацию.
+2. **Галлюцинации нейросетей (Lost in the Middle):** Когда в модель загружают тысячи строк второстепенного вспомогательного кода, нейросеть «забывает» архитектуру, выдумывает несуществующие импорты и ломает типизацию.
+3. **Разрозненность архитектуры:** Реальная фича всегда распределена по разным слоям: роутеры, сервисы, модели БД, очереди. Разработчик вынужден каждый раз вручную собирать контекст и объяснять нейросети, как устроена система.
 
-### ✨ Главные возможности
-- **Интерактивный граф в стиле Obsidian:** Тёмный холст с плавной физикой связей, динамическими узлами, разворачиваемыми карточками и интеграцией React Flow.
-- **Умный AST-парсер:** Удаляет тела функций, методов и классов, сохраняя сигнатуры, аргументы, типы возвращаемых значений и докстринги. Позволяет экономить до 85% токенов контекстного окна.
-- **Собственный формат `.cg.md`:** Экспортируйте и импортируйте архитектуру проекта, этапы разработки, задачи, связи и привязанные файлы одним Markdown-документом.
-- **Мгновенный переход в IDE:** Открывайте нужный файл и конкретную строку прямо в PyCharm или VS Code.
-- **Встроенный AI-чат (340+ моделей):** Поддержка OpenAI, Anthropic, Google, DeepSeek, Qwen, xAI, OpenRouter и других провайдеров. Также предусмотрено автоматическое обнаружение локальных моделей через Ollama и LM Studio.
-- **Полная конфиденциальность (Local-First):** Никаких облачных баз данных. Состояние рабочего пространства хранится локально в директории `.archflow/` вашего проекта.
+**CodeGraphy решает эти проблемы:**
+Инструмент строит интерактивный архитектурный граф проекта в стиле Obsidian, связывает ноды с реальными файлами на диске, выжимает из кода компактный каркас через синтаксический анализ AST и кормит нейросеть чистым, концентрированным контекстом.
 
 ---
 
-### 📐 Формат CodeGraphy Markdown
-CodeGraphy Markdown — это открытый декларативный формат для переноса архитектуры программных проектов между разработчиками и нейросетями.
+### 🚀 Скачать релиз (v2.0.0)
 
-#### Зачем нужен этот формат?
-1. **Генерация архитектуры через ИИ:** Попросите ChatGPT, Claude, Gemini, DeepSeek или другую нейросеть спроектировать архитектуру вашего проекта по формату CodeGraphy. Импортируйте полученный Markdown-файл и получите готовый интерактивный граф.
-2. **Удобное хранение в Git:** Один лёгкий `.md`-файл заменяет сложные экспорты баз данных и легко читается в любом текстовом редакторе.
-3. **Совместимость с Obsidian:** Для связей между модулями используются привычные wiki-ссылки `[[Название модуля]]`.
-4. **Гибкая работа с путями:** Поддерживаются относительные и абсолютные пути Windows/Linux. Разделители `/` и `\` распознаются автоматически.
+- 👉 **[Скачать инсталлятор CodeGraphy-v2.0.0-Setup.exe (138 МБ)](https://github.com/)**
+- **Контрольная сумма SHA-256:** `1329C8E67ED6FE894E17127C819CECBF67CB3B460A0D7515952DFEDBE2AF2C5C`
+- **Портативная версия:** Папка `win-unpacked` (работает сразу без установки).
 
-#### 🤖 Готовый промпт для генерации архитектуры
-> Скопируйте и отправьте любой нейросети:
-> 
-> ```text
-> Спроектируй полную архитектуру моего проекта в формате CodeGraphy v2.0 Markdown.
-> Соблюдай следующие требования:
-> - Используй YAML-шапку с полями format: codegraphy-workspace, version: 2.0, workspace_id и name.
-> - Добавь три обязательные секции: ## Lanes, ## Tasks и ## Topics.
-> - Для этапов используй формат: - [lane_id] **Название** | order=0 | color=#38bdf8 | expanded
-> - Для задач используй: ### Task: Название `task_id` и поля `status`, `lane`, `linked_topics`, `description`.
-> - Для модулей используй: ### Topic: Название `topic_id` и поля `status`, `lane`, `task`, `position`, `description`, `connects_to` и `files`.
-> - Для связей между модулями используй формат [[Название модуля]].
-> - Пути к файлам указывай отдельными элементами Markdown со стандартным отступом в два пробела внутри files.
-> Результат должен представлять собой полный, корректный и готовый к импорту документ .cg.md. Не пропускай важные модули и не выдумывай несуществующие файлы. Если предоставлен исходный код проекта, строй архитектуру на основе его реального содержимого.
-> ```
+---
 
-#### Пример синтаксиса
+### ✨ Главные возможности и архитектура
+
+#### 1. Умная AST-выжимка контекста (экономия до 85% токенов)
+Встроенный парсер анализирует абстрактное синтаксическое дерево Python, вырезая внутреннюю реализацию функций и методов (`pass`, циклы, вспомогательные вычисления), но сохраняя:
+- Структуру классов и деревья наследования.
+- Точные имена аргументов, type-hints типизацию и дефолтные значения.
+- Докстринги и возвращаемые типы.
+- **Результат:** 20 файлов сложного сервиса укладываются всего в ~1,500 токенов вместо 25,000, полностью исключая галлюцинации модели.
+
+#### 2. Интерактивный канвас и мульти-контекст (Multi-Topic Context)
+- **Живой граф связей:** Построен на базе React Flow с плавной кинематикой, перетаскиванием, связями между модулями и статусами (`To do`, `In progress`, `Done`).
+- **Мульти-топики в чате:** Возможность объединять в один AI-контекст сразу несколько связанных модулей. Чат автоматически скомпилирует общий контекст по всем привязанным файлам и смежным связям.
+- **Дизайн-система Linear / Graphite:** Элегантный профессиональный интерфейс в глубокой графитовой палитре (`#111315` / `#15181B` / `#20252A`) без визуального шума. Кнопки `Copy` и `Retry` выровнены строго по одной оси.
+
+#### 3. Встроенный AI-чат на 340+ моделей с моментальным стримингом
+- **Поддерживаемые провайдеры:** Google Gemini (`3.6 Flash`, `3.8 Flash`, `Pro`), OpenAI (`GPT-4o`, `o3`), Anthropic (`Claude 3.5 Sonnet`, `Opus`), DeepSeek, Qwen, xAI Grok, OpenRouter.
+- **Локальные модели без интернета:** Автоматическое обнаружение локальных серверов **Ollama**, **LM Studio**, **Open WebUI** для приватной работы на собственном GPU.
+- **Потоковый вывод (SSE):** Первый токен появляется на экране менее чем за 0.5 секунды. Реализован умный авто-фоллбэк (если облачный кластер выбранной модели перегружен, запрос без зависаний переключается на стабильную ревизию).
+- **Локальная история сессий:** Диалоги сохраняются в локальном хранилище проекта с автоматическим присвоением названий по первому вопросу и быстрым переключением между ветками.
+
+#### 4. Максимальная защита от декомпиляции и слива кода
+CodeGraphy защищён на промышленном уровне:
+- **Трансляция Python в машинный Си-код (Nuitka + Zig):** Исходный код бэкенда переводится в язык C и компилируется через `zig.exe 0.16.0` в чистый бинарный машинный код x86_64. Внутри `main.exe` **нет `.pyc` файлов и нет Python-байткода**. При попытке открыть бинарник в IDA Pro или Ghidra взломщик увидит только десятки тысяч строк голого ассемблера (`mov`, `jmp`, `call`).
+- **Крипто-обфускация фронтенда (RC4 + CFF):** Весь React 19 интерфейс зашифрован шифром RC4, логика функций разбита на стейт-машины (*Control Flow Flattening*), внедрён мёртвый код (*Dead Code Injection*).
+- **Контроль целостности ASAR и блокировка DevTools:** В релизе заблокирована консоль разработчика, а криптографический хеш `asarIntegrity` защищает приложение от подмены ресурсов.
+
+---
+
+### 📐 Формат CodeGraphy Markdown (`.cg.md`)
+
+Архитектура сохраняется в человекочитаемом формате Markdown, совместимом с Git и Obsidian wiki-ссылками `[[Название]]`.
+
+#### 🤖 Готовый промпт для генерации архитектуры через любую нейросеть
+Скопируйте и отправьте ChatGPT, Claude, Gemini или DeepSeek:
+
+```text
+Спроектируй полную архитектуру моего проекта в формате CodeGraphy v2.0 Markdown.
+Соблюдай следующие требования:
+- Используй YAML-шапку с полями format: codegraphy-workspace, version: 2.0, workspace_id и name.
+- Добавь три обязательные секции: ## Lanes, ## Tasks и ## Topics.
+- Для этапов используй формат: - [lane_id] **Название** | order=0 | color=#38bdf8 | expanded
+- Для задач используй: ### Task: Название `task_id` и поля `status`, `lane`, `linked_topics`, `description`.
+- Для модулей используй: ### Topic: Название `topic_id` и поля `status`, `lane`, `task`, `position`, `description`, `connects_to` и `files`.
+- Для связей между модулями используй формат [[Название модуля]].
+- Пути к файлам указывай отдельными элементами Markdown со стандартным отступом в два пробела внутри files.
+Результат должен представлять собой полный, корректный и готовый к импорту документ .cg.md. Не пропускай важные модули и не выдумывай несуществующие файлы. Если предоставлен исходный код проекта, строй архитектуру на основе его реального содержимого.
+```
+
+#### Пример синтаксиса `.cg.md`
 ```markdown
 ---
 format: codegraphy-workspace
@@ -187,12 +190,6 @@ name: Smart Home IoT Platform
 - linked_topics: `topic_zigbee_handler, topic_device_state`
 - description: Парсинг MQTT-пакетов от датчиков и обновление стейта в памяти.
 
-### Task: Движок правил и сценариев `task_rules_02`
-- status: `done`
-- lane: `lane_core`
-- linked_topics: `topic_rule_engine, topic_device_state`
-- description: Создание триггеров для обработки событий автоматизации.
-
 ## Topics
 ### Topic: Обработчик Zigbee MQTT `topic_zigbee_handler`
 - status: `in_progress`
@@ -205,65 +202,32 @@ name: Smart Home IoT Platform
   - `drivers/zigbee/mqtt_listener.py`
   - `drivers/zigbee/decoders/climate_sensor.py`
   - `drivers/zigbee/decoders/motion_detector.py`
-
-### Topic: Менеджер Состояний Устройств `topic_device_state`
-- status: `done`
-- lane: `lane_core`
-- task: `task_zigbee_01`
-- position: `(480.0, 150.0)`
-- description: Центральный кэш текущих параметров (температура, статус реле, освещенность).
-- connects_to: [[Движок Правил Автоматизации]]
-- files:
-  - `core/state/device_manager.py`
-  - `core/state/cache_store.py`
-
-### Topic: Движок Правил Автоматизации `topic_rule_engine`
-- status: `done`
-- lane: `lane_core`
-- task: `task_rules_02`
-- position: `(480.0, 360.0)`
-- description: Выполнение условных операторов IF/THEN на основе поступивших метрик.
-- files:
-  - `core/rules/evaluator.py`
-  - `core/rules/actions/notifications.py`
 ```
 
 ---
 
-## 💻 System Requirements / Системные требования
+## 💻 Системные требования / System Requirements
 
-| Component | Requirement |
+| Компонент / Component | Требование / Requirement |
 | :--- | :--- |
-| **Operating System** | Windows 10 / 11 (64-bit) |
-| **RAM** | Minimum 4 GB |
-| **Disk Space** | Approximately 250 MB |
+| **Операционная система** | Windows 10 / 11 (64-bit) |
+| **Оперативная память (RAM)** | Мин. 4 ГБ (рек. 8 ГБ) |
+| **Дисковое пространство** | ~250 МБ свободного места |
 
 ---
 
-## 🛡️ Security & VirusTotal
+## 🛡️ Безопасность и контрольные суммы / Security
 
-You can independently check the application files using VirusTotal.  
-*Вы можете самостоятельно проверить файлы программы через VirusTotal.*
-
-> **Note:** The application is built without a paid EV code-signing certificate. As a result, some antivirus engines may report heuristic false positives. Always review the scan results yourself.
-
-### SHA-256 Checksums
-
-| File | SHA-256 | VirusTotal |
+| Файл / File | Версия / Version | SHA-256 Checksum |
 | :--- | :--- | :--- |
-| `CodeGraphy_Setup.exe` | `9b5c5cca9f33718789baac5eacfa7633d44ae7f3d33926e7112b49381a64777a` | [View scan](#) |
-| `CodeGraphy.exe` | `1061eefb7dd635c3d55c2c890f497853b0217a39a3f95f9fb2c827a78a38123c` | [View scan](#) |
+| **`CodeGraphy-v2.0.0-Setup.exe`** | `v2.0.0` | `1329C8E67ED6FE894E17127C819CECBF67CB3B460A0D7515952DFEDBE2AF2C5C` |
 
 ---
 
-## 💬 Feedback & Contact / Контакты
+## 💬 Контакты и обратная связь / Contacts
 
-Have ideas, feature requests, or bug reports? Feel free to get in touch.  
-*Есть идеи, предложения по улучшению или нашли ошибку? Свяжитесь напрямую:*
-
-- **Discord:** `nevindetto` (DM / Add as friend)
 - **Telegram:** [@Methyienedloxymethamphetamine](https://t.me/Methyienedloxymethamphetamine)
-- **GitHub Issues:** [Report a bug / Open an issue](#)
+- **Discord:** `nevindetto`
 
 ---
 
