@@ -5,6 +5,29 @@
   <img src="https://img.shields.io/badge/Platform-Windows%2010%2F11%20x64-blue?style=for-the-badge&logo=windows" alt="Platform" />
   <img src="https://img.shields.io/badge/Architecture-100%25%20Local--First-emerald?style=for-the-badge" alt="Architecture" />
   <img src="https://img.shields.io/badge/Release-v2.0.0-purple?style=for-the-badge" alt="Release" />
+  <img src="https://img.shields.io/badge/Security-Nuitka%20Machine%20C%20%2B%20RC4%20Obfuscated-red?style=for-the-badge" alt="Security" />
+</p>
+
+---
+
+## 🎬 Interactive Showcase / Демонстрация возможностей
+
+<p align="center">
+  <b>1. Auto-Discovery & Living Architecture Map Generation</b><br>
+  <i>Scan any local repository to automatically discover modules, extract dependencies, and build a real-time reactive graph.</i><br>
+  <img src="https://github.com/user-attachments/assets/115c3574-b887-4214-befb-fdb27c5a76b4" alt="Scan & Living Graph" width="850" />
+</p>
+
+<p align="center">
+  <b>2. Layer Filtering & 1-Click IDE Deep Linking (PyCharm / VS Code / Cursor)</b><br>
+  <i>Filter domain models, database layers, and jump directly from any architectural node into the exact file and line inside your local IDE in full project context.</i><br>
+  <img src="https://github.com/user-attachments/assets/67355e0c-ab08-4b67-898f-ee6171afbc63" alt="Layer Filtering & IDE Jump" width="850" />
+</p>
+
+<p align="center">
+  <b>3. AI-Powered Architectural Analysis with AST Context</b><br>
+  <i>Gemini, Claude, and local Ollama models reason over your project using signature-only AST skeletons with zero token waste.</i><br>
+  <img src="https://github.com/user-attachments/assets/ca3fc0fe-44fd-4f0a-a64e-5aa5c91e3756" alt="AI Architecture Reasoning" width="850" />
 </p>
 
 ---
@@ -39,9 +62,10 @@ Modern AI-assisted development suffers from three major bottlenecks:
 
 ### 🚀 Download Latest Release (v2.0.0)
 
-- 👉 **[Download CodeGraphy Setup 2.0.0.exe (138 MB)](https://github.com/)**
-- **SHA-256 Checksum:** `B6F80896946748AEA1B366B6A9BD9684715F646A6643CDF302111B13AFB77B00`
-- **Portable Version:** Available in `win-unpacked` folder (zero installation required).
+- 👉 **[Download CodeGraphy Setup 2.0.0.exe (135.11 MB)](https://github.com/)**
+  - **SHA-256:** `4B93BD4A406875A7FEAD5187301CD2EE242158D8205BF4322200CB4238E5D02A`
+- 👉 **[Download CodeGraphy-2.0.0-Portable.zip (172.01 MB)](https://github.com/)**
+  - **SHA-256:** `9EACCACC4B9153947E314B3D08BD11A97D6D086B2E3DC445643B53E81DAF80E1`
 
 ---
 
@@ -57,15 +81,19 @@ Instead of sending entire file bodies, the built-in AST parser strips internal i
 #### 2. Living Multi-Topic Architecture Canvas
 - **Obsidian-Style Interactive Canvas:** Powered by React Flow with smooth physics, drag-and-drop node organization, and status markers (`To do`, `In progress`, `Done`).
 - **Multi-Topic Focus:** Pair several independent or interconnected modules simultaneously (`selectedTopicIds`). The chat compiles unified context across all attached files and dependency edges in real time.
-- **Linear / Graphite Minimalist Palette:** Professional dark-mode design system (`#111315` / `#15181B` / `#20252A`) with zero visual noise, aligned action controls (`Copy`, `Retry`), and unobtrusive status badges.
+- **Linear / Graphite Minimalist Palette:** Professional dark-mode design system (`#0b0c0e` / `#121417` / `#1e2227`) with zero visual noise, aligned action controls (`Copy`, `Retry`), and unobtrusive status badges.
 
-#### 3. Integrated AI Chat with 340+ Models & Instant SSE Streaming
+#### 3. Industrial Architecture Linter with Tarjan O(V+E) Cycle Detection
+- **Instant Drift Detection:** Validates layer boundaries (e.g., Domain -> API forbidden calls) and detects cyclical imports in milliseconds.
+- **Coupling Metrics:** Calculates Afferent (Ca) and Efferent (Ce) coupling, flag god modules, and exports architecture reports to Mermaid, JSON, and HTML.
+
+#### 4. Integrated AI Chat with 340+ Models & Instant SSE Streaming
 - **Native Support:** Google Gemini (`3.6 Flash`, `3.8 Flash`, `Pro`), OpenAI (`GPT-4o`, `o3`), Anthropic (`Claude 3.5 Sonnet`, `Opus`), DeepSeek, Qwen, xAI Grok, OpenRouter.
 - **Local Private Models:** Auto-detects running local GPU instances via **Ollama**, **LM Studio**, and **Open WebUI** with 0-latency offline inference.
 - **Sub-Second Streaming:** Server-Sent Events (SSE) stream tokens chunk-by-chunk with intelligent fallback mechanisms (e.g. automatic failover if a cloud model cluster experiences peak-demand spikes).
 - **Persistent Local History:** Chat sessions are stored locally in your workspace (`localStorage` / `.archflow`), featuring automatic smart-naming from the initial query and instant session switching.
 
-#### 4. Military-Grade Intellectual Property Protection
+#### 5. Military-Grade Intellectual Property Protection
 CodeGraphy is built with strict multi-layer defense against reverse engineering and decompilation:
 - **Python-to-Native Machine Code (Nuitka + Zig):** Backend modules are translated to C source code and compiled directly into an x86_64 binary (`main.exe`) using `zig.exe 0.16.0`. There are **no `.pyc` bytecode files**—decompilers only see raw processor machine instructions (`mov`, `jmp`, `call`).
 - **Cryptographic Frontend Obfuscation (RC4 + Control Flow Flattening):** The React 19 codebase is hardened with RC4 string encryption, function flattening into state machines, and dead-code injection.
@@ -112,9 +140,10 @@ Generate a complete, valid, import-ready .cg.md document. Do not omit important 
 
 ### 🚀 Скачать релиз (v2.0.0)
 
-- 👉 **[Скачать инсталлятор CodeGraphy Setup 2.0.0.exe (138 МБ)](https://github.com/)**
-- **Контрольная сумма SHA-256:** `B6F80896946748AEA1B366B6A9BD9684715F646A6643CDF302111B13AFB77B00`
-- **Портативная версия:** Папка `win-unpacked` (работает сразу без установки).
+- 👉 **[Скачать инсталлятор CodeGraphy Setup 2.0.0.exe (135.11 МБ)](https://github.com/)**
+  - **Контрольная сумма SHA-256:** `4B93BD4A406875A7FEAD5187301CD2EE242158D8205BF4322200CB4238E5D02A`
+- 👉 **[Скачать портативную версию CodeGraphy-2.0.0-Portable.zip (172.01 МБ)](https://github.com/)**
+  - **Контрольная сумма SHA-256:** `9EACCACC4B9153947E314B3D08BD11A97D6D086B2E3DC445643B53E81DAF80E1`
 
 ---
 
@@ -130,15 +159,19 @@ Generate a complete, valid, import-ready .cg.md document. Do not omit important 
 #### 2. Интерактивный канвас и мульти-контекст (Multi-Topic Context)
 - **Живой граф связей:** Построен на базе React Flow с плавной кинематикой, перетаскиванием, связями между модулями и статусами (`To do`, `In progress`, `Done`).
 - **Мульти-топики в чате:** Возможность объединять в один AI-контекст сразу несколько связанных модулей. Чат автоматически скомпилирует общий контекст по всем привязанным файлам и смежным связям.
-- **Дизайн-система Linear / Graphite:** Элегантный профессиональный интерфейс в глубокой графитовой палитре (`#111315` / `#15181B` / `#20252A`) без визуального шума. Кнопки `Copy` и `Retry` выровнены строго по одной оси.
+- **Дизайн-система Linear / Graphite:** Элегантный профессиональный интерфейс в глубокой графитовой палитре (`#0b0c0e` / `#121417` / `#1e2227`) без визуального шума. Кнопки `Copy` и `Retry` выровнены строго по одной оси.
 
-#### 3. Встроенный AI-чат на 340+ моделей с моментальным стримингом
+#### 3. Архитектурный линтер на алгоритме Tarjan O(V+E)
+- **Мгновенный поиск циклов:** Автоматически находит циклы импортов и нарушения слоев в кодовой базе за доли секунды.
+- **Метрики связанности:** Расчет афферентной (Ca) и эфферентной (Ce) связанности, детектирование God-модулей и экспорт отчетов в Mermaid, JSON и HTML.
+
+#### 4. Встроенный AI-чат на 340+ моделей с моментальным стримингом
 - **Поддерживаемые провайдеры:** Google Gemini (`3.6 Flash`, `3.8 Flash`, `Pro`), OpenAI (`GPT-4o`, `o3`), Anthropic (`Claude 3.5 Sonnet`, `Opus`), DeepSeek, Qwen, xAI Grok, OpenRouter.
 - **Локальные модели без интернета:** Автоматическое обнаружение локальных серверов **Ollama**, **LM Studio**, **Open WebUI** для приватной работы на собственном GPU.
-- **Потоковый вывод (SSE):** Первый токен появляется на экране менее чем за 0.5 секунды. Реализован умный авто-фоллбэк (если облачный кластер выбранной модели перегружен, запрос без зависаний переключается на стабильную ревизию).
+- **Потоковый вывод (SSE):** Первый токен появляется на экране менее чем за 0.5 секунды. Реализован умный авто-фоллбэк.
 - **Локальная история сессий:** Диалоги сохраняются в локальном хранилище проекта с автоматическим присвоением названий по первому вопросу и быстрым переключением между ветками.
 
-#### 4. Максимальная защита от декомпиляции и слива кода
+#### 5. Максимальная защита от декомпиляции и слива кода
 CodeGraphy защищён на промышленном уровне:
 - **Трансляция Python в машинный Си-код (Nuitka + Zig):** Исходный код бэкенда переводится в язык C и компилируется через `zig.exe 0.16.0` в чистый бинарный машинный код x86_64. Внутри `main.exe` **нет `.pyc` файлов и нет Python-байткода**. При попытке открыть бинарник в IDA Pro или Ghidra взломщик увидит только десятки тысяч строк голого ассемблера (`mov`, `jmp`, `call`).
 - **Крипто-обфускация фронтенда (RC4 + CFF):** Весь React 19 интерфейс зашифрован шифром RC4, логика функций разбита на стейт-машины (*Control Flow Flattening*), внедрён мёртвый код (*Dead Code Injection*).
@@ -217,9 +250,10 @@ name: Smart Home IoT Platform
 
 ## 🛡️ Безопасность и контрольные суммы / Security
 
-| Файл / File | Версия / Version | SHA-256 Checksum |
-| :--- | :--- | :--- |
-| **`CodeGraphy Setup 2.0.0.exe`** | `v2.0.0` | `B6F80896946748AEA1B366B6A9BD9684715F646A6643CDF302111B13AFB77B00` |
+| Файл / File | Версия / Version | Размер / Size | SHA-256 Checksum |
+| :--- | :--- | :--- | :--- |
+| **`CodeGraphy Setup 2.0.0.exe`** | `v2.0.0` | 135.11 MB | `4B93BD4A406875A7FEAD5187301CD2EE242158D8205BF4322200CB4238E5D02A` |
+| **`CodeGraphy-2.0.0-Portable.zip`** | `v2.0.0` | 172.01 MB | `9EACCACC4B9153947E314B3D08BD11A97D6D086B2E3DC445643B53E81DAF80E1` |
 
 ---
 
