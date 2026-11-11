@@ -1,54 +1,57 @@
-# ⚡ CodeGraphy v2.0
-### Visual Context Orchestrator & Living Architecture Graph for AI-First Developers
+# CodeGraphy v2.1
+### Visual Context Orchestrator & Context Intelligence Platform for AI-First Developers
 
 <p align="center">
   <img src="https://img.shields.io/badge/Platform-Windows%2010%2F11%20x64-blue?style=for-the-badge&logo=windows" alt="Platform" />
   <img src="https://img.shields.io/badge/Architecture-100%25%20Local--First-emerald?style=for-the-badge" alt="Architecture" />
-  <img src="https://img.shields.io/badge/Release-v2.0.0-purple?style=for-the-badge" alt="Release" />
+  <img src="https://img.shields.io/badge/Release-v2.1.0-purple?style=for-the-badge" alt="Release" />
+  <img src="https://img.shields.io/badge/Protocol-Model%20Context%20Protocol%20(MCP)-cyan?style=for-the-badge" alt="MCP" />
   <img src="https://img.shields.io/badge/Security-Nuitka%20Machine%20C%20%2B%20RC4%20Obfuscated-red?style=for-the-badge" alt="Security" />
 </p>
 
 ---
 
-## 🎬 Interactive Showcase / Демонстрация возможностей
+## Interactive Showcase / Демонстрация возможностей
 
 <p align="center">
-  <b>1. Auto-Discovery & Living Architecture Map Generation</b><br>
+  <b>1. Auto-Discovery & Living Architecture Map Generation / Автосканирование и живой граф</b><br>
   <i>Scan any local repository to automatically discover modules, extract dependencies, and build a real-time reactive graph.</i><br>
   <img src="https://github.com/user-attachments/assets/115c3574-b887-4214-befb-fdb27c5a76b4" alt="Scan & Living Graph" width="850" />
 </p>
 
 <p align="center">
-  <b>2. Layer Filtering & 1-Click IDE Deep Linking (PyCharm / VS Code / Cursor)</b><br>
+  <b>2. Layer Filtering & 1-Click IDE Deep Linking (PyCharm / VS Code / Cursor) / Фильтрация слоев и переход в IDE</b><br>
   <i>Filter domain models, database layers, and jump directly from any architectural node into the exact file and line inside your local IDE in full project context.</i><br>
   <img src="https://github.com/user-attachments/assets/67355e0c-ab08-4b67-898f-ee6171afbc63" alt="Layer Filtering & IDE Jump" width="850" />
 </p>
 
 <p align="center">
-  <b>3. AI-Powered Architectural Analysis with AST Context</b><br>
+  <b>3. AI-Powered Architectural Analysis with AST Context / Архитектурный анализ с AST-контекстом</b><br>
   <i>Gemini, Claude, and local Ollama models reason over your project using signature-only AST skeletons with zero token waste.</i><br>
   <img src="https://github.com/user-attachments/assets/ca3fc0fe-44fd-4f0a-a64e-5aa5c91e3756" alt="AI Architecture Reasoning" width="850" />
 </p>
 
 ---
 
-## 🌐 Language Select / Выберите язык
-- [English](#-english)
-  - [What Problems Does CodeGraphy Solve?](#-what-problems-does-codegraphy-solve)
-  - [Key Architecture & Features](#-key-architecture--features)
-  - [CodeGraphy Markdown Format (.cg.md)](#-codegraphy-markdown-format-cgmd)
-  - [System Requirements & Security](#-system-requirements--security)
-- [Русский](#-русский)
-  - [Какие проблемы решает CodeGraphy?](#-какие-проблемы-решает-codegraphy)
-  - [Главные возможности и архитектура](#-главные-возможности-и-архитектура)
-  - [Формат CodeGraphy Markdown (.cg.md)](#-формат-codegraphy-markdown-cgmd)
-  - [Системные требования и безопасность](#-системные-требования-и-безопасность)
+## Language Select / Выберите язык
+- [English](#english)
+  - [What Problems Does CodeGraphy Solve?](#what-problems-does-codegraphy-solve)
+  - [Download Latest Release (v2.1.0)](#download-latest-release-v210)
+  - [Key Architecture & Features](#key-architecture--features)
+  - [CodeGraphy Markdown Format (.cg.md)](#codegraphy-markdown-format-cgmd)
+  - [System Requirements & Security](#system-requirements--security)
+- [Русский](#russian--русский)
+  - [Какие проблемы решает CodeGraphy?](#какие-проблемы-решает-codegraphy)
+  - [Скачать релиз (v2.1.0)](#скачать-релиз-v210)
+  - [Главные возможности и архитектура](#главные-возможности-и-архитектура)
+  - [Формат CodeGraphy Markdown (.cg.md)](#формат-codegraphy-markdown-cgmd)
+  - [Системные требования и безопасность](#системные-требования-и-безопасность)
 
 ---
 
-## 🇬🇧 English
+## English
 
-### 💡 What Problems Does CodeGraphy Solve?
+### What Problems Does CodeGraphy Solve?
 
 Modern AI-assisted development suffers from three major bottlenecks:
 
@@ -60,16 +63,16 @@ Modern AI-assisted development suffers from three major bottlenecks:
 
 ---
 
-### 🚀 Download Latest Release (v2.0.0)
+### Download Latest Release (v2.1.0)
 
-- 👉 **[Download CodeGraphy Setup 2.0.0.exe (135.11 MB)](https://github.com/)**
-  - **SHA-256:** `4B93BD4A406875A7FEAD5187301CD2EE242158D8205BF4322200CB4238E5D02A`
-- 👉 **[Download CodeGraphy-2.0.0-Portable.zip (172.01 MB)](https://github.com/)**
-  - **SHA-256:** `9EACCACC4B9153947E314B3D08BD11A97D6D086B2E3DC445643B53E81DAF80E1`
+- **[Download CodeGraphy Setup 2.1.0.exe (135.27 MB)](https://github.com/)**
+  - **SHA-256:** `90683007DD45B4849E05448FAEC075726E2DF20ED63ED200437B36E6A903C81D`
+- **[Download CodeGraphy Portable 2.1.0.exe (123.69 MB)](https://github.com/)**
+  - **SHA-256:** `42AD59EE79FBB112498E05C32177BEF7FE6937AD9DEE7F669589EF7658698D6C`
 
 ---
 
-### ✨ Key Architecture & Features
+### Key Architecture & Features
 
 #### 1. Deep Python AST Context Extraction (-85% Token Waste)
 Instead of sending entire file bodies, the built-in AST parser strips internal implementation blocks (`pass`, return calculations, loops) while preserving:
@@ -83,9 +86,9 @@ Instead of sending entire file bodies, the built-in AST parser strips internal i
 - **Multi-Topic Focus:** Pair several independent or interconnected modules simultaneously (`selectedTopicIds`). The chat compiles unified context across all attached files and dependency edges in real time.
 - **Linear / Graphite Minimalist Palette:** Professional dark-mode design system (`#0b0c0e` / `#121417` / `#1e2227`) with zero visual noise, aligned action controls (`Copy`, `Retry`), and unobtrusive status badges.
 
-#### 3. Industrial Architecture Linter with Tarjan O(V+E) Cycle Detection
+#### 3. Industrial Architecture Analysis with Tarjan O(V+E) Cycle Detection
 - **Instant Drift Detection:** Validates layer boundaries (e.g., Domain -> API forbidden calls) and detects cyclical imports in milliseconds.
-- **Coupling Metrics:** Calculates Afferent (Ca) and Efferent (Ce) coupling, flag god modules, and exports architecture reports to Mermaid, JSON, and HTML.
+- **Coupling Metrics:** Calculates Afferent (Ca) and Efferent (Ce) coupling, flags god modules, and exports architecture reports to Mermaid, JSON, and HTML.
 
 #### 4. Integrated AI Chat with 340+ Models & Instant SSE Streaming
 - **Native Support:** Google Gemini (`3.6 Flash`, `3.8 Flash`, `Pro`), OpenAI (`GPT-4o`, `o3`), Anthropic (`Claude 3.5 Sonnet`, `Opus`), DeepSeek, Qwen, xAI Grok, OpenRouter.
@@ -93,7 +96,14 @@ Instead of sending entire file bodies, the built-in AST parser strips internal i
 - **Sub-Second Streaming:** Server-Sent Events (SSE) stream tokens chunk-by-chunk with intelligent fallback mechanisms (e.g. automatic failover if a cloud model cluster experiences peak-demand spikes).
 - **Persistent Local History:** Chat sessions are stored locally in your workspace (`localStorage` / `.archflow`), featuring automatic smart-naming from the initial query and instant session switching.
 
-#### 5. Military-Grade Intellectual Property Protection
+#### 5. Context Intelligence Platform & Official MCP Server
+- **Official Model Context Protocol (MCP) Server:** Runs locally over standard STDIO, exposing 11 validated tools (`get_architecture_summary`, `get_module_contract`, `query_subgraph`, `build_smart_context`, `analyze_change_impact`, `get_architecture_diff`, `search_symbols`, `get_context_preset`, `save_context_preset`, `record_context_memory`, `run_impacted_tests`) to Claude Desktop, Cursor, and custom agentic frameworks.
+- **Smart Context Builder & Token Budget Engine:** Generates target AST context across Architecture, Focused, and Full modes with real-time token savings metrics and estimated API cost reduction.
+- **Change Impact & Blast Radius:** Computes direct and transitive dependencies affected by code modifications before committing.
+- **Architecture Git Diff:** Live visualization of working tree changes compared to `HEAD` overlaid directly onto the interactive canvas with 1-click status filters.
+- **AI Context Memory:** Preserves architectural decisions (ADRs) with user-verified guardrails against automated AI overwrite.
+
+#### 6. Intellectual Property Protection
 CodeGraphy is built with strict multi-layer defense against reverse engineering and decompilation:
 - **Python-to-Native Machine Code (Nuitka + Zig):** Backend modules are translated to C source code and compiled directly into an x86_64 binary (`main.exe`) using `zig.exe 0.16.0`. There are **no `.pyc` bytecode files**—decompilers only see raw processor machine instructions (`mov`, `jmp`, `call`).
 - **Cryptographic Frontend Obfuscation (RC4 + Control Flow Flattening):** The React 19 codebase is hardened with RC4 string encryption, function flattening into state machines, and dead-code injection.
@@ -101,11 +111,11 @@ CodeGraphy is built with strict multi-layer defense against reverse engineering 
 
 ---
 
-### 📐 CodeGraphy Markdown Format (`.cg.md`)
+### CodeGraphy Markdown Format (`.cg.md`)
 
 CodeGraphy introduces an open, declarative Markdown standard for sharing architecture between developers, Git repositories, and AI systems.
 
-#### 🤖 AI Architecture Generation Prompt
+#### AI Architecture Generation Prompt
 Copy and send this prompt to ChatGPT, Claude, Gemini, or DeepSeek:
 
 ```text
@@ -123,14 +133,14 @@ Generate a complete, valid, import-ready .cg.md document. Do not omit important 
 
 ---
 
-## 🇷🇺 Русский
+## Russian / Русский
 
-### 💡 Какие проблемы решает CodeGraphy?
+### Какие проблемы решает CodeGraphy?
 
 При разработке с помощью современных нейросетей разработчики постоянно сталкиваются с тремя барьерами:
 
 1. **Переполнение контекста (Context Bloat) и трата токенов:** Копирование исходных файлов целиком быстро сжигает лимиты контекстного окна, делает запросы дорогими и замедляет генерацию.
-2. **Галлюцинации нейросетей (Lost in the Middle):** Когда в модель загружают тысячи строк второстепенного вспомогательного кода, нейросеть «забывает» архитектуру, выдумывает несуществующие импорты и ломает типизацию.
+2. **Галлюцинации нейросетей (Lost in the Middle):** Когда в модель загружают тысячи строк второстепенного вспомогательного кода, нейросеть забывает архитектуру, выдумывает несуществующие импорты и ломает типизацию.
 3. **Разрозненность архитектуры:** Реальная фича всегда распределена по разным слоям: роутеры, сервисы, модели БД, очереди. Разработчик вынужден каждый раз вручную собирать контекст и объяснять нейросети, как устроена система.
 
 **CodeGraphy решает эти проблемы:**
@@ -138,16 +148,16 @@ Generate a complete, valid, import-ready .cg.md document. Do not omit important 
 
 ---
 
-### 🚀 Скачать релиз (v2.0.0)
+### Скачать релиз (v2.1.0)
 
-- 👉 **[Скачать инсталлятор CodeGraphy Setup 2.0.0.exe (135.11 МБ)](https://github.com/)**
-  - **Контрольная сумма SHA-256:** `4B93BD4A406875A7FEAD5187301CD2EE242158D8205BF4322200CB4238E5D02A`
-- 👉 **[Скачать портативную версию CodeGraphy-2.0.0-Portable.zip (172.01 МБ)](https://github.com/)**
-  - **Контрольная сумма SHA-256:** `9EACCACC4B9153947E314B3D08BD11A97D6D086B2E3DC445643B53E81DAF80E1`
+- **[Скачать инсталлятор CodeGraphy Setup 2.1.0.exe (135.27 МБ)](https://github.com/)**
+  - **Контрольная сумма SHA-256:** `90683007DD45B4849E05448FAEC075726E2DF20ED63ED200437B36E6A903C81D`
+- **[Скачать портативную версию CodeGraphy Portable 2.1.0.exe (123.69 МБ)](https://github.com/)**
+  - **Контрольная сумма SHA-256:** `42AD59EE79FBB112498E05C32177BEF7FE6937AD9DEE7F669589EF7658698D6C`
 
 ---
 
-### ✨ Главные возможности и архитектура
+### Главные возможности и архитектура
 
 #### 1. Умная AST-выжимка контекста (экономия до 85% токенов)
 Встроенный парсер анализирует абстрактное синтаксическое дерево Python, вырезая внутреннюю реализацию функций и методов (`pass`, циклы, вспомогательные вычисления), но сохраняя:
@@ -161,29 +171,36 @@ Generate a complete, valid, import-ready .cg.md document. Do not omit important 
 - **Мульти-топики в чате:** Возможность объединять в один AI-контекст сразу несколько связанных модулей. Чат автоматически скомпилирует общий контекст по всем привязанным файлам и смежным связям.
 - **Дизайн-система Linear / Graphite:** Элегантный профессиональный интерфейс в глубокой графитовой палитре (`#0b0c0e` / `#121417` / `#1e2227`) без визуального шума. Кнопки `Copy` и `Retry` выровнены строго по одной оси.
 
-#### 3. Архитектурный линтер на алгоритме Tarjan O(V+E)
+#### 3. Архитектурный анализ на алгоритме Tarjan O(V+E)
 - **Мгновенный поиск циклов:** Автоматически находит циклы импортов и нарушения слоев в кодовой базе за доли секунды.
 - **Метрики связанности:** Расчет афферентной (Ca) и эфферентной (Ce) связанности, детектирование God-модулей и экспорт отчетов в Mermaid, JSON и HTML.
 
 #### 4. Встроенный AI-чат на 340+ моделей с моментальным стримингом
 - **Поддерживаемые провайдеры:** Google Gemini (`3.6 Flash`, `3.8 Flash`, `Pro`), OpenAI (`GPT-4o`, `o3`), Anthropic (`Claude 3.5 Sonnet`, `Opus`), DeepSeek, Qwen, xAI Grok, OpenRouter.
 - **Локальные модели без интернета:** Автоматическое обнаружение локальных серверов **Ollama**, **LM Studio**, **Open WebUI** для приватной работы на собственном GPU.
-- **Потоковый вывод (SSE):** Первый токен появляется на экране менее чем за 0.5 секунды. Реализован умный авто-фоллбэк.
+- **Потоковый вывод (SSE):** Первый токен появляется на экране менее чем за 0.5 секунды. Реализован автоматический фоллбэк.
 - **Локальная история сессий:** Диалоги сохраняются в локальном хранилище проекта с автоматическим присвоением названий по первому вопросу и быстрым переключением между ветками.
 
-#### 5. Максимальная защита от декомпиляции и слива кода
-CodeGraphy защищён на промышленном уровне:
-- **Трансляция Python в машинный Си-код (Nuitka + Zig):** Исходный код бэкенда переводится в язык C и компилируется через `zig.exe 0.16.0` в чистый бинарный машинный код x86_64. Внутри `main.exe` **нет `.pyc` файлов и нет Python-байткода**. При попытке открыть бинарник в IDA Pro или Ghidra взломщик увидит только десятки тысяч строк голого ассемблера (`mov`, `jmp`, `call`).
-- **Крипто-обфускация фронтенда (RC4 + CFF):** Весь React 19 интерфейс зашифрован шифром RC4, логика функций разбита на стейт-машины (*Control Flow Flattening*), внедрён мёртвый код (*Dead Code Injection*).
+#### 5. Платформа контекстного интеллекта и официальный MCP-сервер
+- **Локальный MCP Server (Model Context Protocol):** Работает через стандартный ввод/вывод (STDIO), предоставляя 11 инструментов (`get_architecture_summary`, `get_module_contract`, `query_subgraph`, `build_smart_context`, `analyze_change_impact`, `get_architecture_diff`, `search_symbols`, `get_context_preset`, `save_context_preset`, `record_context_memory`, `run_impacted_tests`) для подключения к Claude Desktop, Cursor и AI-агентам.
+- **Smart Context Builder & Token Budget:** Генерация целевого AST-контекста в трех режимах (Architecture, Focused, Full) с расчетом сохраненных токенов и экономии затрат на API.
+- **Анализ радиуса поражения (Change Impact Analysis):** Автоматический расчет прямых и транзитивных зависимостей при редактировании файлов.
+- **Архитектурный Git Diff:** Визуальное отображение изменений рабочего дерева относительно `HEAD` прямо на интерактивном графе с подсветкой статусов.
+- **Долговременная память контекста (Context Memory):** Хранение архитектурных решений (ADR) с защитой верифицированных пользователем записей.
+
+#### 6. Защита от декомпиляции и слива кода
+CodeGraphy защищен на промышленном уровне:
+- **Трансляция Python в машинный Си-код (Nuitka + Zig):** Исходный код бэкенда переводится в язык C и компилируется через `zig.exe 0.16.0` в чистый бинарный машинный код x86_64. Внутри `main.exe` **нет `.pyc` файлов и нет Python-байткода**. При попытке открыть бинарник в IDA Pro или Ghidra виден только машинный ассемблер (`mov`, `jmp`, `call`).
+- **Крипто-обфускация фронтенда (RC4 + CFF):** Весь React 19 интерфейс зашифрован шифром RC4, логика функций разбита на стейт-машины (Control Flow Flattening), внедрен мертвый код.
 - **Контроль целостности ASAR и блокировка DevTools:** В релизе заблокирована консоль разработчика, а криптографический хеш `asarIntegrity` защищает приложение от подмены ресурсов.
 
 ---
 
-### 📐 Формат CodeGraphy Markdown (`.cg.md`)
+### Формат CodeGraphy Markdown (`.cg.md`)
 
 Архитектура сохраняется в человекочитаемом формате Markdown, совместимом с Git и Obsidian wiki-ссылками `[[Название]]`.
 
-#### 🤖 Готовый промпт для генерации архитектуры через любую нейросеть
+#### Готовый промпт для генерации архитектуры через любую нейросеть
 Скопируйте и отправьте ChatGPT, Claude, Gemini или DeepSeek:
 
 ```text
@@ -238,7 +255,7 @@ name: Smart Home IoT Platform
 
 ---
 
-## 💻 Системные требования / System Requirements
+## Системные требования и безопасность / System Requirements & Security
 
 | Компонент / Component | Требование / Requirement |
 | :--- | :--- |
@@ -248,16 +265,16 @@ name: Smart Home IoT Platform
 
 ---
 
-## 🛡️ Безопасность и контрольные суммы / Security
+## Контрольные суммы релизных сборок / Release Checksums
 
 | Файл / File | Версия / Version | Размер / Size | SHA-256 Checksum |
 | :--- | :--- | :--- | :--- |
-| **`CodeGraphy Setup 2.0.0.exe`** | `v2.0.0` | 135.11 MB | `4B93BD4A406875A7FEAD5187301CD2EE242158D8205BF4322200CB4238E5D02A` |
-| **`CodeGraphy-2.0.0-Portable.zip`** | `v2.0.0` | 172.01 MB | `9EACCACC4B9153947E314B3D08BD11A97D6D086B2E3DC445643B53E81DAF80E1` |
+| **`CodeGraphy Setup 2.1.0.exe`** | `v2.1.0` | 135.27 MB | `90683007DD45B4849E05448FAEC075726E2DF20ED63ED200437B36E6A903C81D` |
+| **`CodeGraphy Portable 2.1.0.exe`** | `v2.1.0` | 123.69 MB | `42AD59EE79FBB112498E05C32177BEF7FE6937AD9DEE7F669589EF7658698D6C` |
 
 ---
 
-## 💬 Контакты и обратная связь / Contacts
+## Контакты и обратная связь / Contacts
 
 - **Telegram:** [@Methyienedloxymethamphetamine](https://t.me/Methyienedloxymethamphetamine)
 - **Discord:** `nevindetto`
