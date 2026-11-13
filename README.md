@@ -1,35 +1,30 @@
 # CodeGraphy v2.1.1
 ### Visual Context Orchestrator & Context Intelligence Platform for AI-First Developers
 
-&lt;p align=&quot;center&quot;&gt;
-  &lt;img src=&quot;https://img.shields.io/badge/Platform-Windows%2010%2F11%20x64-blue?style=for-the-badge&amp;logo=windows&quot; alt=&quot;Platform&quot; /&gt;
-  &lt;img src=&quot;https://img.shields.io/badge/Architecture-100%25%20Local--First-emerald?style=for-the-badge&quot; alt=&quot;Architecture&quot; /&gt;
-  &lt;img src=&quot;https://img.shields.io/badge/Release-v2.1.1-38bdf8?style=for-the-badge&quot; alt=&quot;Release&quot; /&gt;
-  &lt;img src=&quot;https://img.shields.io/badge/Protocol-MCP%20(14%20Tools)-cyan?style=for-the-badge&quot; alt=&quot;MCP&quot; /&gt;
-  &lt;img src=&quot;https://img.shields.io/badge/Security-Nuitka%20Machine%20C%20%2B%20RC4%20Obfuscated-red?style=for-the-badge&quot; alt=&quot;Security&quot; /&gt;
-&lt;/p&gt;
+
+
+
+
+
 
 ---
 
 ## Interactive Showcase / Демонстрация возможностей
 
-&lt;p align=&quot;center&quot;&gt;
-  &lt;b&gt;1. Auto-Discovery &amp; Living Architecture Map Generation / Автосканирование и живой граф&lt;/b&gt;&lt;br&gt;
-  &lt;i&gt;Scan any local repository to automatically discover modules, extract dependencies, and build a real-time reactive graph.&lt;/i&gt;&lt;br&gt;
-  &lt;img src=&quot;https://github.com/user-attachments/assets/115c3574-b887-4214-befb-fdb27c5a76b4&quot; alt=&quot;Scan &amp; Living Graph&quot; width=&quot;850&quot; /&gt;
-&lt;/p&gt;
+**1. Auto-Discovery & Living Architecture Map Generation / Автосканирование и живой граф**  
+*Scan any local repository to automatically discover modules, extract dependencies, and build a real-time reactive graph.*
 
-&lt;p align=&quot;center&quot;&gt;
-  &lt;b&gt;2. Layer Filtering &amp; 1-Click IDE Deep Linking (PyCharm / VS Code / Cursor) / Фильтрация слоев и переход в IDE&lt;/b&gt;&lt;br&gt;
-  &lt;i&gt;Filter domain models, database layers, and jump directly from any architectural node into the exact file and line inside your local IDE in full project context.&lt;/i&gt;&lt;br&gt;
-  &lt;img src=&quot;https://github.com/user-attachments/assets/67355e0c-ab08-4b67-898f-ee6171afbc63&quot; alt=&quot;Layer Filtering &amp; IDE Jump&quot; width=&quot;850&quot; /&gt;
-&lt;/p&gt;
 
-&lt;p align=&quot;center&quot;&gt;
-  &lt;b&gt;3. AI-Powered Architectural Analysis with AST Context / Архитектурный анализ с AST-контекстом&lt;/b&gt;&lt;br&gt;
-  &lt;i&gt;Gemini, Claude, and local Ollama models reason over your project using signature-only AST skeletons with zero token waste.&lt;/i&gt;&lt;br&gt;
-  &lt;img src=&quot;https://github.com/user-attachments/assets/ca3fc0fe-44fd-4f0a-a64e-5aa5c91e3756&quot; alt=&quot;AI Architecture Reasoning&quot; width=&quot;850&quot; /&gt;
-&lt;/p&gt;
+
+**2. Layer Filtering & 1-Click IDE Deep Linking (PyCharm / VS Code / Cursor) / Фильтрация слоев и переход в IDE**  
+*Filter domain models, database layers, and jump directly from any architectural node into the exact file and line inside your local IDE in full project context.*
+
+
+
+**3. AI-Powered Architectural Analysis with AST Context / Архитектурный анализ с AST-контекстом**  
+*Gemini, Claude, and local Ollama models reason over your project using signature-only AST skeletons with zero token waste.*
+
+
 
 ---
 
@@ -274,8 +269,5 @@ name: Smart Home IoT Platform
 
 ---
 
-&lt;p align=&quot;center&quot;&gt;
-  &lt;b&gt;CodeGraphy — Understand your architecture. Give AI the right context.&lt;/b&gt;
-  &lt;br /&gt;
-  &lt;sub&gt;Built for developers, designed for AI-first workflows.&lt;/sub&gt;
-&lt;/p&gt;
+**CodeGraphy — Understand your architecture. Give AI the right context.**  
+*Built for developers, designed for AI-first workflows.*
